@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Gossup.common",
+    "\\Gossup.Web"
   ],
+  "SelectedNode": "\\Gossup.common\\ContentKeyword.cs",
   "PreviewInSolutionExplorer": false
 }
