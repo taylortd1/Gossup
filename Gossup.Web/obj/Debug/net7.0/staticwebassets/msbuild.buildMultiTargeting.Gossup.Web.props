@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Gossup.Web.props" />
+</Project>
