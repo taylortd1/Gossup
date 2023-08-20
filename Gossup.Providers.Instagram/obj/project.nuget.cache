@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cFq4CxuPUtGElZmBh+t70ZUySJDaGfTe8mEUe/uuW04HSqJUj6Y/sX6ilEXqn+OTIFV8zAHMpojlWxYazZXAFw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\preda\\source\\repos\\Gossup\\Gossup.Providers.Instagram\\Gossup.Providers.Instagram.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\preda\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

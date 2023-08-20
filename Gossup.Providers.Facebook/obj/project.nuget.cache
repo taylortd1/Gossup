@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q6k+9yNiCY1HUlgOip9C0iNTJ4Q0btJakbz8l/YIMC2GUnk4n2aZxiC+V4sozb5zA7TI55RZamaY30xHH8rC5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\preda\\source\\repos\\Gossup\\Gossup.Providers.Facebook\\Gossup.Providers.Facebook.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\preda\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

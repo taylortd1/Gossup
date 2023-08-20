@@ -9,6 +9,30 @@
     <link rel="stylesheet" href="~/Gossup.Web.styles.css" asp-append-version="true" />
 </head>
 <body>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: 'a37c908a5d4e0851beb4705003b71396',
+                cookie: true,
+                xfbml: true,
+                version: 'v17.0'
+            });
+
+            FB.AppEvents.logPageView();
+
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0&appId=1342381420012615&autoLogAppEvents=1" nonce="aDovs0NK"></script>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -17,6 +41,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
@@ -24,8 +49,11 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
+                        </li> 
                     </ul>
+                </div>
+                <div class="fb-login-button" data-width="40" data-size="" data-button-type="" data-layout="" data-auto-logout-link="true" data-use-continue-as="false">
+                    <button class="btn btn-primary" type="button">Login</button>
                 </div>
             </div>
         </nav>

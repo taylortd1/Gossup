@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Gossup.WebTest
-build_property.ProjectDir = C:\Users\preda\Source\Repos\Gossup\Gossup.WebTest\
+build_property.ProjectDir = C:\Users\preda\source\repos\Gossup\Gossup.WebTest\

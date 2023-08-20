@@ -1,4 +1,4 @@
-﻿namespace Gossup.common;
+﻿namespace Gossup.Common;
 
 public partial class Content
 {

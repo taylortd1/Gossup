@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gossup.Web", "Gossup.Web.csproj", "{C70F83A5-B322-49F0-8DA0-F9A2F0012519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gossup.common", "..\Gossup.common\Gossup.common.csproj", "{A47A0C16-13D8-4ED4-AD9E-FFC1F5D8D433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gossup.Common", "..\Gossup.common\Gossup.Common.csproj", "{A47A0C16-13D8-4ED4-AD9E-FFC1F5D8D433}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z. Test", "Z. Test", "{0F45CECE-F242-451D-9D89-E2316C87D238}"
 EndProject
@@ -14,13 +14,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A. Solution Dependncies", "A. Solution Dependncies", "{3C2B9CFE-D0EF-4C95-963B-60097BF3E9A6}"
 	ProjectSection(SolutionItems) = preProject
 		..\Gossup.common\.gitignore = ..\Gossup.common\.gitignore
+		Directory.build.props = Directory.build.props
 		..\Gossup.common\LICENSE = ..\Gossup.common\LICENSE
 		..\Gossup.common\README.md = ..\Gossup.common\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gossup.UnitTest", "..\Gossup.UnitTest\Gossup.UnitTest.csproj", "{D0C0F1C3-FD9B-4989-B624-7E9A4BEFF84E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gossup.UnitTest", "..\Gossup.UnitTest\Gossup.UnitTest.csproj", "{D0C0F1C3-FD9B-4989-B624-7E9A4BEFF84E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gossup.WebTest", "..\Gossup.WebTest\Gossup.WebTest.csproj", "{C5D4F05C-ECE5-402D-9382-FCDD06F86862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gossup.WebTest", "..\Gossup.WebTest\Gossup.WebTest.csproj", "{C5D4F05C-ECE5-402D-9382-FCDD06F86862}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gossup.Providers.Instagram", "..\Gossup.Providers.Instagram\Gossup.Providers.Instagram.csproj", "{6BF683C5-1553-45B2-873A-C9EED2A40739}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gossup.Providers.Facebook", "..\Gossup.Providers.Facebook\Gossup.Providers.Facebook.csproj", "{D354DB03-48B9-425F-BD3C-BE5646B1903C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +49,14 @@ Global
 		{C5D4F05C-ECE5-402D-9382-FCDD06F86862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5D4F05C-ECE5-402D-9382-FCDD06F86862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5D4F05C-ECE5-402D-9382-FCDD06F86862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF683C5-1553-45B2-873A-C9EED2A40739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF683C5-1553-45B2-873A-C9EED2A40739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF683C5-1553-45B2-873A-C9EED2A40739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF683C5-1553-45B2-873A-C9EED2A40739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D354DB03-48B9-425F-BD3C-BE5646B1903C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D354DB03-48B9-425F-BD3C-BE5646B1903C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D354DB03-48B9-425F-BD3C-BE5646B1903C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D354DB03-48B9-425F-BD3C-BE5646B1903C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +66,8 @@ Global
 		{A47A0C16-13D8-4ED4-AD9E-FFC1F5D8D433} = {EE898A59-81A2-4124-BCCA-5B9D249EDD03}
 		{D0C0F1C3-FD9B-4989-B624-7E9A4BEFF84E} = {0F45CECE-F242-451D-9D89-E2316C87D238}
 		{C5D4F05C-ECE5-402D-9382-FCDD06F86862} = {0F45CECE-F242-451D-9D89-E2316C87D238}
+		{6BF683C5-1553-45B2-873A-C9EED2A40739} = {EE898A59-81A2-4124-BCCA-5B9D249EDD03}
+		{D354DB03-48B9-425F-BD3C-BE5646B1903C} = {EE898A59-81A2-4124-BCCA-5B9D249EDD03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {91CE1723-FC6A-4510-90D0-ED7AE605F17B}

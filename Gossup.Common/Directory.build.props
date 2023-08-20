@@ -1,0 +1,5 @@
+﻿<Project>
+	<ItemGroup>
+		<Using Include="Gossup.Providers.Facebook" />
+	</ItemGroup>
+</Project>

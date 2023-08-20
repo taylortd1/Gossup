@@ -1,0 +1,11 @@
+C:\Users\preda\source\repos\Gossup\practice\obj\Debug\net7.0\practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\preda\source\repos\Gossup\practice\obj\Debug\net7.0\practice.AssemblyInfoInputs.cache
+C:\Users\preda\source\repos\Gossup\practice\obj\Debug\net7.0\practice.AssemblyInfo.cs
+C:\Users\preda\source\repos\Gossup\practice\obj\Debug\net7.0\practice.csproj.CoreCompileInputs.cache
+C:\Users\preda\source\repos\Gossup\practice\bin\Debug\net7.0\practice.deps.json
+C:\Users\preda\source\repos\Gossup\practice\bin\Debug\net7.0\practice.dll
+C:\Users\preda\source\repos\Gossup\practice\bin\Debug\net7.0\practice.pdb
+C:\Users\preda\source\repos\Gossup\practice\obj\Debug\net7.0\practice.dll
+C:\Users\preda\source\repos\Gossup\practice\obj\Debug\net7.0\refint\practice.dll
+C:\Users\preda\source\repos\Gossup\practice\obj\Debug\net7.0\practice.pdb
+C:\Users\preda\source\repos\Gossup\practice\obj\Debug\net7.0\ref\practice.dll

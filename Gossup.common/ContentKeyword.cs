@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.Design;
+﻿namespace Gossup.Common;
 
-namespace Gossup.common;
-
-internal class ContentKeyword
+public  class ContentKeyword
 {
     /// <summary>
     /// the hashtag, keyword, search string
